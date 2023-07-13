@@ -1,1 +1,1 @@
-# LAN-IONIC
+replace your src folder with this folder -xy
