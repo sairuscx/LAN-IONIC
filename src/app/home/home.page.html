@@ -1,10 +1,12 @@
 <ion-header>
   <ion-toolbar>
-    <ion-grid>
+    <ion-grid class="grid-head">
       <ion-row>
-      <ion-title>NETWORK</ion-title>
-      <ion-title class="scnd-title">Batangas Medical Center</ion-title>
-    </ion-row>
+        <ion-title>NETWORK</ion-title>
+      </ion-row>
+      <ion-row class="title-head">
+        <ion-title class="title-sentence">Batangas Medical Center</ion-title>
+      </ion-row>
     </ion-grid>
       
 
@@ -26,8 +28,8 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-content>
-    <div class="menu-button">
+  <ion-content >
+    <div class="menu-button" >
       <ion-list>
       <ion-item>
         <ion-button class="menu-button sub" fill="clear" (click)="redirectToReports()">Reports</ion-button>
@@ -43,6 +45,9 @@
   </ion-content>
 </ion-menu>
 <ion-router-outlet id="main-content"></ion-router-outlet>
+
+
+
 
 <ion-content scroll-y="false" class="bg-container">
   <div class="bg-image"></div>

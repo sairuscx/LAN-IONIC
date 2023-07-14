@@ -14,9 +14,21 @@ ion-title{
   height: auto;
   margin-right: 20px;
 }
-
-.scnd-title{
-  margin-left: 800px;
+.grid-head{
+  display: flex;
+  flex-direction: row;
+  
+}
+.title-head{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.title-sentence{
+  text-align: right;
+  margin-right: 50px;
   font-weight: lighter;
 }
 //end of header
@@ -24,6 +36,10 @@ ion-title{
 
 
 //side menu
+ion-menu{
+  --ion-background-color: #121212; 
+  --backdrop-filter: none;
+}
 .menu-button {
   display: block;
   width: 100%;
