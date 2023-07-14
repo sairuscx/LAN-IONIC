@@ -1,1 +1,1 @@
-replace your src folder with this folder -xy
+replace the src folder with this folder -xy
