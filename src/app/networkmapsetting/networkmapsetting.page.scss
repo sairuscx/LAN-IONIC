@@ -16,7 +16,6 @@ ion-title{
   margin-right: 100px;
   font-family: 'Poppins', sans-serif;
 }
-
 //end of header
 
 
@@ -67,9 +66,21 @@ ion-title{
   text-align: center;
   background-color: rgba(98, 188, 96, .6);
   font-family: 'Poppins', sans-serif;
+  border-radius: 20px;
   
 }
 
+//card-scroll
+ion-card-content {
+  max-height: calc(100% - #{50px});
+  position: relative;
+  overflow: hidden;
+  overflow-y: auto;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+//end
 .img-logo{//icon image
   height: 50px;
   width: auto;
@@ -112,7 +123,18 @@ ion-title{
   width: 30cm;
   background-color: rgba(242, 242, 242, .9);
   font-family: 'Poppins', sans-serif;
-  
+  border-radius: 20px;
+}
+@media (max-width: 1500px) {
+  .middle-card {
+    width: 950px;
+    height: 600px;
+  }
+}
+@media (max-width: 1300px) {
+  .middle-card {
+    width: 850px;
+    height: 600px;
+  }
 }
 //end
-
